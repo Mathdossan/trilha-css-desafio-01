@@ -1,0 +1,105 @@
+* {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgba(14, 177, 218, 0.856)
+ }
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgba(14, 177, 218, 0.856);
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+        
+}
+
+ p {
+    font-size: 1.3rem;
+}
+
+.banner {
+    padding-bottom: 15px;
+    background-image: radial-gradient(rgb(0,0,60), rgb(0,0,0)), url('assets/images/banner.png');
+    background-size:  100% 100%;
+    background-blend-mode:lighten;
+    border-bottom: solid 1px;
+    border-bottom-color: rgba(14, 177, 218, 0.856);
+}
+
+#inscrever {
+    border-inline-style: 1px;
+    border-color: rgba(14, 177, 218, 0.856);
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    margin: 1rem;
+    color: rgba(14, 177, 218, 0.856);
+}
+
+#color-main {
+    padding-top: 0;
+    background-color: black;
+}
+
+#course-content {
+    background-color: rgba(0,0,0);
+    padding: 2rem;
+    margin: 0;
+    border-bottom: solid 1px;
+    border-color: rgba(14, 177, 218, 0.856);
+}
+
+.module {
+    margin: 25px;
+}
+
+.modules {
+    background-color: rgb(65, 65, 65);
+    border: solid 1px;
+    border-color: rgba(14, 177, 218, 0.856);
+    border-radius: 19px;
+    padding: 10px;
+}
+
+.color {
+    color:  rgba(14, 177, 218, 0.856);
+}
+
+#transform-world {
+    height: 560px;
+    margin: 0;
+    background-image: url('assets/images/woman-code.png');
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+#transform-world p {
+    margin-top: 0;
+    font-size: 5rem;
+    text-align: left;
+    padding: 5cm;
+    padding-left: 05cm;
+}
+
+#professional-challenges {
+    background-color: black;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(14, 177, 218, 0.856);
+    border-top: solid 1px rgba(14, 177, 218, 0.856);
+}
+
+#footer {
+    background-color: black;
+    padding: 10px;
+}
+
+#footer a {
+    color:  rgba(14, 177, 218, 0.856);
+}
